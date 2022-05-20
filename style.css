@@ -3,6 +3,7 @@
   padding: 0px;
 
 }
+/* the default bar*/
 .nav-bar{
   text-align: right;
 
@@ -36,7 +37,7 @@
   position: relative;
 }
 .nav-bar ul li a{
-  color: #ff0000;
+  color:  #f2f2f2;
   font-weight: bold;
   text-decoration: none;
 
@@ -45,3 +46,41 @@
   transition: .4s;
   color: #0000ff;
 }
+/* the first paragraph*/
+#second-sec{
+width: 100%;
+padding: 60px 0px;
+background-color: #b30000;
+}
+.about{
+  width: 500px;
+}
+.about h1{
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.about p{
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  line-height: auto;
+
+}
+.imagess{
+  align-items: center;
+  margin: 0px auto;
+
+  width: 1140px;
+  max-width: 93%;
+  justify-content: space-around;
+  display: flex;
+}
+/* the second paragraph*/
+span{
+  color:  #660066;
+}
+/* for every span */
