@@ -1,0 +1,47 @@
+*{
+  margin:0px;
+  padding: 0px;
+
+}
+.nav-bar{
+  text-align: right;
+
+
+}
+.logo{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/graduation.jpg);
+  background-position: center;
+  background-size: auto;
+
+}
+.logo img{
+  height: 50px;
+  width: 80px;
+  float: left;
+
+}
+.logo h2{
+  color:#ff3333;
+  font-family: sans-serif; arial;
+  font-size: 28px;
+  padding: 8px 8px;
+}
+.nav-bar ul li{
+
+  display: inline-block;
+  padding: 8px 8px;
+  padding-right: 70px;
+  position: relative;
+}
+.nav-bar ul li a{
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.nav-bar ul li a:hover{
+  transition: .4s;
+  color: #0000ff;
+}
