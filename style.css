@@ -1,86 +1,30 @@
-*{
-  margin:0px;
-  padding: 0px;
-
-}
-/* the default bar*/
-.nav-bar{
-  text-align: right;
-
-
-}
-.logo{
-  height: 100vh;
-  width: 100%;
-  background-image: url(images/graduation.jpg);
-  background-position: center;
-  background-size: auto;
-
-}
-.logo img{
-  height: 50px;
-  width: 80px;
-  float: left;
-
-}
-.logo h2{
-  color:#ff3333;
-  font-family: sans-serif; arial;
-  font-size: 28px;
-  padding: 8px 8px;
-}
-.nav-bar ul li{
-
-  display: inline-block;
-  padding: 8px 8px;
-  padding-right: 70px;
-  position: relative;
-}
-.nav-bar ul li a{
-  color:  #f2f2f2;
-  font-weight: bold;
-  text-decoration: none;
-
-}
-.nav-bar ul li a:hover{
-  transition: .4s;
-  color: #0000ff;
-}
-/* the first paragraph*/
-#second-sec{
-width: 100%;
-padding: 60px 0px;
-background-color: #b30000;
-}
-.about{
-  width: 500px;
-}
-.about h1{
-  font-size: 45px;
-  font-weight: bold;
-  text-transform: capitalize;
-  text-align: center;
-  padding-bottom: 12px;
-  padding-top: 12px;
-}
-.about p{
+.btn{
+  background-color: #f9004d;
   color: white;
-  font-size: 17px;
-  text-align: left;
-  line-height: auto;
+  text-decoration: none;
+  border: 1px soild transparent;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: transform .4s;
 
 }
-.imagess{
-  align-items: center;
-  margin: 0px auto;
-
-  width: 1140px;
-  max-width: 93%;
-  justify-content: space-around;
-  display: flex;
+#first-p{
+  background: rgb(48,46,15);
+background: linear-gradient(90deg, rgba(48,46,15,1) 0%, rgba(124,121,13,0.5634628851540616) 52%);
 }
-/* the second paragraph*/
-span{
-  color:  #660066;
+.nav-link{
+  padding: 20px 18px;
 }
-/* for every span */
+.pic{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.text{
+  color: red;
+}
+p{
+  color: white;
+  font-size: 24px;
+  font-family: arial sans-serif;
+}
